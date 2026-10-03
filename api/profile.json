@@ -1,0 +1,274 @@
+{
+  "_generated_at": "2026-10-03T10:34:04.320Z",
+  "_count": 15,
+  "types": [
+    "获奖证书",
+    "项目经历",
+    "工作经历",
+    "技能特长",
+    "自我评价"
+  ],
+  "directions": [
+    "技术方向",
+    "产品方向",
+    "运营方向",
+    "通用素材"
+  ],
+  "items": [
+    {
+      "id": "recvwYyMCBXnc8",
+      "name": "Python全栈开发技能证书",
+      "type": "获奖证书",
+      "institution": "Python技术认证中心",
+      "role": "考生",
+      "description": "通过Python全栈开发技能综合考核",
+      "highlights": "获全栈开发高级认证",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "使用中",
+      "start": "2023.04",
+      "start_ts": 1681516800000,
+      "end": "2023.04",
+      "end_ts": 1681516800000
+    },
+    {
+      "id": "recvwYyMCBSo5R",
+      "name": "客户管理系统升级项目",
+      "type": "项目经历",
+      "institution": "智联云创",
+      "role": "全栈开发负责人",
+      "description": "主导客户管理系统的功能升级及性能优化",
+      "highlights": "系统响应速度提升60%，客户满意度达95%",
+      "directions": [
+        "产品方向"
+      ],
+      "status": "使用中",
+      "start": "2022.06",
+      "start_ts": 1654041600000,
+      "end": "2022.12",
+      "end_ts": 1671062400000
+    },
+    {
+      "id": "recvwYyMCBX0Vw",
+      "name": "全栈开发工程师工作经历",
+      "type": "工作经历",
+      "institution": "智联云创科技",
+      "role": "全栈开发工程师",
+      "description": "负责SaaS产品的前后端功能开发及维护",
+      "highlights": "主导3个核心模块上线，服务客户超1000家",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "使用中",
+      "start": "2022.01",
+      "start_ts": 1640995200000,
+      "end": "2024.09",
+      "end_ts": 1727654400000
+    },
+    {
+      "id": "recvwYyMCB8I4y",
+      "name": "Vue.js框架技能证书",
+      "type": "获奖证书",
+      "institution": "前端技术认证中心",
+      "role": "考生",
+      "description": "通过Vue.js框架应用开发技能考核",
+      "highlights": "获高级前端框架应用认证",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "使用中",
+      "start": "2021.03",
+      "start_ts": 1615334400000,
+      "end": "2021.03",
+      "end_ts": 1615334400000
+    },
+    {
+      "id": "recvwYyMCB7oBx",
+      "name": "在线考试系统开发项目",
+      "type": "项目经历",
+      "institution": "星网科技",
+      "role": "前端开发负责人",
+      "description": "负责考试系统的答题页面及成绩统计模块开发",
+      "highlights": "支持1000人同时在线考试，零故障运行",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "已归档",
+      "start": "2020.05",
+      "start_ts": 1588291200000,
+      "end": "2020.08",
+      "end_ts": 1598832000000
+    },
+    {
+      "id": "recvwYyMCBp5tn",
+      "name": "前端开发工程师工作经历",
+      "type": "工作经历",
+      "institution": "星网科技有限公司",
+      "role": "前端开发工程师",
+      "description": "负责公司官网及核心产品前端页面的开发与迭代",
+      "highlights": "优化页面加载速度提升40%，获年度优秀员工",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "使用中",
+      "start": "2019.07",
+      "start_ts": 1563148800000,
+      "end": "2021.12",
+      "end_ts": 1640908800000
+    },
+    {
+      "id": "recvwYyMCBs2QC",
+      "name": "HTML5+CSS3技能证书",
+      "type": "获奖证书",
+      "institution": "前端技术认证中心",
+      "role": "考生",
+      "description": "通过HTML5与CSS3核心技能考核",
+      "highlights": "获中级前端开发技能认证",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "已归档",
+      "start": "2019.05",
+      "start_ts": 1558310400000,
+      "end": "2019.05",
+      "end_ts": 1558310400000
+    },
+    {
+      "id": "recvwYyMCBDUfg",
+      "name": "校园小程序开发项目",
+      "type": "项目经历",
+      "institution": "江南理工大学",
+      "role": "项目负责人",
+      "description": "带领3人团队开发校园二手物品交易小程序",
+      "highlights": "累计注册用户2000+，交易额超10万元",
+      "directions": [
+        "运营方向"
+      ],
+      "status": "已归档",
+      "start": "2018.03",
+      "start_ts": 1519862400000,
+      "end": "2018.11",
+      "end_ts": 1543536000000
+    },
+    {
+      "id": "recvwYyMCByHox",
+      "name": "计算机二级C语言证书",
+      "type": "获奖证书",
+      "institution": "国家教育部考试中心",
+      "role": "考生",
+      "description": "通过全国计算机二级C语言程序设计考试",
+      "highlights": "获计算机二级合格证书",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "已归档",
+      "start": "2017.09",
+      "start_ts": 1504224000000,
+      "end": "2017.09",
+      "end_ts": 1504224000000
+    },
+    {
+      "id": "recvwYyMCB6ETr",
+      "name": "本科毕业证书及成绩单",
+      "type": "获奖证书",
+      "institution": "江南理工大学",
+      "role": "学生",
+      "description": "完成计算机科学与技术专业全部课程，平均绩点3.8/4.0",
+      "highlights": "获校级优秀毕业生称号",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "使用中",
+      "start": "2015.09",
+      "start_ts": 1441065600000,
+      "end": "2019.06",
+      "end_ts": 1561852800000
+    },
+    {
+      "id": "recvwYyMCBz2vb",
+      "name": "前端开发技能特长",
+      "type": "技能特长",
+      "institution": "个人技能",
+      "role": "前端开发工程师",
+      "description": "熟练掌握HTML5、CSS3、JavaScript及Vue.js、React等框架",
+      "highlights": "可独立完成前端页面开发及性能优化",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "使用中",
+      "start": "",
+      "start_ts": 0,
+      "end": "",
+      "end_ts": 0
+    },
+    {
+      "id": "recvwYyMCBBDmi",
+      "name": "全栈开发技能特长",
+      "type": "技能特长",
+      "institution": "个人技能",
+      "role": "全栈开发工程师",
+      "description": "熟练掌握Python、Django、Flask及MySQL、Redis等技术",
+      "highlights": "可独立完成全栈项目的开发与部署",
+      "directions": [
+        "技术方向"
+      ],
+      "status": "使用中",
+      "start": "",
+      "start_ts": 0,
+      "end": "",
+      "end_ts": 0
+    },
+    {
+      "id": "recvwYyMCBv9xD",
+      "name": "项目管理技能特长",
+      "type": "技能特长",
+      "institution": "个人技能",
+      "role": "项目负责人",
+      "description": "熟悉项目全流程管理，具备团队协调及进度把控能力",
+      "highlights": "曾带领多个项目按时高质量交付",
+      "directions": [
+        "产品方向"
+      ],
+      "status": "待更新",
+      "start": "",
+      "start_ts": 0,
+      "end": "",
+      "end_ts": 0
+    },
+    {
+      "id": "recvwYyMCB2bVb",
+      "name": "自我评价",
+      "type": "自我评价",
+      "institution": "个人",
+      "role": "求职者",
+      "description": "性格开朗，具备较强的学习能力及团队协作精神",
+      "highlights": "热爱技术，致力于成为优秀的全栈开发工程师",
+      "directions": [
+        "通用素材"
+      ],
+      "status": "使用中",
+      "start": "",
+      "start_ts": 0,
+      "end": "",
+      "end_ts": 0
+    },
+    {
+      "id": "recvwYyMCBFYCq",
+      "name": "求职意向素材包",
+      "type": "自我评价",
+      "institution": "个人",
+      "role": "求职者",
+      "description": "整理个人简历所有核心素材，用于求职投递",
+      "highlights": "覆盖教育、工作、项目、技能等全维度内容",
+      "directions": [
+        "通用素材"
+      ],
+      "status": "使用中",
+      "start": "",
+      "start_ts": 0,
+      "end": "",
+      "end_ts": 0
+    }
+  ]
+}

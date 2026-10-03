@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>个人作品集 · 履历展示</title>
+  <meta name="description" content="基于飞书多维表格自动同步的个人履历与作品集" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top">履历 · 作品集</a>
+    <nav class="nav__links">
+      <a href="#works">作品</a>
+      <a href="#about">关于</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <!-- 首屏 -->
+  <section class="hero" id="top">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <!-- 提示：把下面 h1 里的文字改成你自己的名字/标题即可 -->
+      <p class="hero__eyebrow reveal">RESUME · PORTFOLIO</p>
+      <h1 class="hero__title reveal">个人作品集</h1>
+      <p class="hero__subtitle reveal">基于飞书多维表格自动同步的履历与作品展示</p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--primary" href="#works">查看作品</a>
+        <a class="btn btn--ghost" href="#about">了解我</a>
+      </div>
+      <div class="hero__scroll reveal" aria-hidden="true"><span></span></div>
+    </div>
+  </section>
+
+  <!-- 统计 -->
+  <section class="stats" id="stats">
+    <div class="stats__grid">
+      <div class="stat reveal">
+        <div class="stat__num" data-count="0" id="stat-total">0</div>
+        <div class="stat__label">作品 / 素材</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num" data-count="0" id="stat-types">0</div>
+        <div class="stat__label">经历类型</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num" data-count="0" id="stat-dirs">0</div>
+        <div class="stat__label">方向覆盖</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品区 -->
+  <section class="works" id="works">
+    <div class="section-head reveal">
+      <h2>作品与经历</h2>
+      <p>按类型或职业方向筛选，点击卡片查看详情。</p>
+    </div>
+
+    <div class="filters" id="filters">
+      <div class="filters__group">
+        <span class="filters__label">类型</span>
+        <div class="chips" id="type-chips"></div>
+      </div>
+      <div class="filters__group">
+        <span class="filters__label">方向</span>
+        <div class="chips" id="dir-chips"></div>
+      </div>
+    </div>
+
+    <div class="grid" id="grid">
+      <!-- 卡片由 app.js 渲染 -->
+    </div>
+    <p class="empty" id="empty" hidden>没有符合筛选条件的条目。</p>
+  </section>
+
+  <!-- 关于 -->
+  <section class="about" id="about">
+    <div class="section-head reveal">
+      <h2>关于我</h2>
+    </div>
+    <div class="about__grid">
+      <div class="about__card reveal" id="about-eval">
+        <h3>自我评价</h3>
+        <p class="about__placeholder">（表格中暂无「自我评价」内容）</p>
+      </div>
+      <div class="about__card reveal" id="about-skills">
+        <h3>技能特长</h3>
+        <div class="tags" id="skills-tags"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="contact" id="contact">
+    <div class="contact__inner reveal">
+      <h2>联系我</h2>
+      <p>欢迎通过以下方式与我取得联系。</p>
+      <!-- 提示：把下面联系方式替换成你自己的 -->
+      <ul class="contact__list">
+        <li>邮箱：<a href="mailto:you@example.com">you@example.com</a></li>
+        <li>微信 / 电话：请替换为你的联系方式</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>由飞书多维表格驱动 · 每 12 小时自动同步 · 静态部署于 GitHub Pages</p>
+  </footer>
+
+  <!-- 详情弹窗 -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true">
+      <button class="modal__close" data-close aria-label="关闭">&times;</button>
+      <div class="modal__badge" id="m-badge"></div>
+      <h3 class="modal__title" id="m-title"></h3>
+      <p class="modal__meta" id="m-meta"></p>
+      <p class="modal__date" id="m-date"></p>
+      <p class="modal__desc" id="m-desc"></p>
+      <div class="modal__hl" id="m-hl"></div>
+      <div class="modal__tags" id="m-tags"></div>
+      <p class="modal__status" id="m-status"></p>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
